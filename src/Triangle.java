@@ -42,11 +42,7 @@ public class Triangle
                 System.out.print("\n RESULT: A Scalene Triangle.");
             }//else if
 
-        }//if
-
-        //Sum of two smaller sides is smaller than the longest side
-        //When it is not a triangle it will print this.
-        else
+        }else
         {
             System.out.print("\n RESULT: This Triangle is NOT possible.");
         }//else
