@@ -20,8 +20,6 @@ public class Triangle
         System.out.println("Side 3: ");
         side3 = keyboard.nextInt();
 
-        //To check to see if it is an triangle
-        // The sum of two smaller sides must be greater than the longest side to be a triangle
         if((side1 + side2 > side3))
         {
             //To check to see if it an Equilateral triangle (3 equal sides)
@@ -40,15 +38,22 @@ public class Triangle
             else if((side1 != side2) & (side2 != side3))
             {
                 System.out.print("\n RESULT: A Scalene Triangle.");
-            }//else if
-
+            }
         }else
         {
             System.out.print("\n RESULT: This Triangle is NOT possible.");
         }//else
-
-
     }//main
+
+    public int show(){
+        System.out.print("\n RESULT: This Triangle is NOT possible.");
+        return 1;
+    }
+
+    public int show2(){
+        System.out.print("\n RESULT: This Triangle is NOT possible.");
+        return 1;
+    }
 }//class
 
 
