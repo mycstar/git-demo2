@@ -54,6 +54,11 @@ public class Triangle
         System.out.print("\n RESULT: This Triangle is NOT possible.");
         return 1;
     }
+
+    public int branch1(){
+        System.out.print("\n RESULT: This Triangle is NOT possible.");
+        return 1;
+    }
 }//class
 
 
